@@ -1,5 +1,12 @@
 module.exports = {
+  // purge: {
+  //   enabled: true,
+  //   content: ['./...'],
+  // }
   content: ["./index.html"],
+  // options: {
+  //   // Pass directly to PurgeCSS options
+  // }
   theme: {
     extend: {
       colors: {
